@@ -193,3 +193,8 @@ import { readFile } from 'fs';
         const boxed: number = maybeBoxed2;
     }
 }
+
+{
+    const td = new global.TextDecoder();
+    const te = new global.TextEncoder();
+}
